@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E591D35170D56DB00CB579E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E591D34170D56DB00CB579E /* UIKit.framework */; };
+		4E591D37170D56DB00CB579E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E591D36170D56DB00CB579E /* Foundation.framework */; };
+		4E591D39170D56DB00CB579E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E591D38170D56DB00CB579E /* CoreGraphics.framework */; };
+		4E591D3F170D56DB00CB579E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4E591D3D170D56DB00CB579E /* InfoPlist.strings */; };
+		4E591D41170D56DB00CB579E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E591D40170D56DB00CB579E /* main.m */; };
+		4E591D45170D56DB00CB579E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E591D44170D56DB00CB579E /* AppDelegate.m */; };
+		4E591D47170D56DB00CB579E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E591D46170D56DB00CB579E /* Default.png */; };
+		4E591D49170D56DB00CB579E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E591D48170D56DB00CB579E /* Default@2x.png */; };
+		4E591D4B170D56DB00CB579E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E591D4A170D56DB00CB579E /* Default-568h@2x.png */; };
+		4E591D4E170D56DB00CB579E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E591D4D170D56DB00CB579E /* ViewController.m */; };
+		4E591D51170D56DB00CB579E /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E591D4F170D56DB00CB579E /* ViewController.xib */; };
+		4E591D59170D56DC00CB579E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E591D58170D56DC00CB579E /* SenTestingKit.framework */; };
+		4E591D5A170D56DC00CB579E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E591D34170D56DB00CB579E /* UIKit.framework */; };
+		4E591D5B170D56DC00CB579E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E591D36170D56DB00CB579E /* Foundation.framework */; };
+		4E591D63170D56DC00CB579E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4E591D61170D56DC00CB579E /* InfoPlist.strings */; };
+		4E591D66170D56DC00CB579E /* XebiaTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E591D65170D56DC00CB579E /* XebiaTestTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4E591D5C170D56DC00CB579E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E591D27170D56DB00CB579E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E591D2F170D56DB00CB579E;
+			remoteInfo = XebiaTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4E591D30170D56DB00CB579E /* XebiaTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XebiaTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E591D34170D56DB00CB579E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4E591D36170D56DB00CB579E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4E591D38170D56DB00CB579E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4E591D3C170D56DB00CB579E /* XebiaTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XebiaTest-Info.plist"; sourceTree = "<group>"; };
+		4E591D3E170D56DB00CB579E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4E591D40170D56DB00CB579E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4E591D42170D56DB00CB579E /* XebiaTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XebiaTest-Prefix.pch"; sourceTree = "<group>"; };
+		4E591D43170D56DB00CB579E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4E591D44170D56DB00CB579E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4E591D46170D56DB00CB579E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		4E591D48170D56DB00CB579E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		4E591D4A170D56DB00CB579E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4E591D4C170D56DB00CB579E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4E591D4D170D56DB00CB579E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4E591D50170D56DB00CB579E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		4E591D57170D56DC00CB579E /* XebiaTestTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XebiaTestTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E591D58170D56DC00CB579E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		4E591D60170D56DC00CB579E /* XebiaTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XebiaTestTests-Info.plist"; sourceTree = "<group>"; };
+		4E591D62170D56DC00CB579E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4E591D64170D56DC00CB579E /* XebiaTestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XebiaTestTests.h; sourceTree = "<group>"; };
+		4E591D65170D56DC00CB579E /* XebiaTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XebiaTestTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E591D2D170D56DB00CB579E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E591D35170D56DB00CB579E /* UIKit.framework in Frameworks */,
+				4E591D37170D56DB00CB579E /* Foundation.framework in Frameworks */,
+				4E591D39170D56DB00CB579E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E591D53170D56DC00CB579E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E591D59170D56DC00CB579E /* SenTestingKit.framework in Frameworks */,
+				4E591D5A170D56DC00CB579E /* UIKit.framework in Frameworks */,
+				4E591D5B170D56DC00CB579E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E591D25170D56DB00CB579E = {
+			isa = PBXGroup;
+			children = (
+				4E591D3A170D56DB00CB579E /* XebiaTest */,
+				4E591D5E170D56DC00CB579E /* XebiaTestTests */,
+				4E591D33170D56DB00CB579E /* Frameworks */,
+				4E591D31170D56DB00CB579E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4E591D31170D56DB00CB579E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E591D30170D56DB00CB579E /* XebiaTest.app */,
+				4E591D57170D56DC00CB579E /* XebiaTestTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E591D33170D56DB00CB579E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E591D34170D56DB00CB579E /* UIKit.framework */,
+				4E591D36170D56DB00CB579E /* Foundation.framework */,
+				4E591D38170D56DB00CB579E /* CoreGraphics.framework */,
+				4E591D58170D56DC00CB579E /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4E591D3A170D56DB00CB579E /* XebiaTest */ = {
+			isa = PBXGroup;
+			children = (
+				4E591D43170D56DB00CB579E /* AppDelegate.h */,
+				4E591D44170D56DB00CB579E /* AppDelegate.m */,
+				4E591D4C170D56DB00CB579E /* ViewController.h */,
+				4E591D4D170D56DB00CB579E /* ViewController.m */,
+				4E591D4F170D56DB00CB579E /* ViewController.xib */,
+				4E591D3B170D56DB00CB579E /* Supporting Files */,
+			);
+			path = XebiaTest;
+			sourceTree = "<group>";
+		};
+		4E591D3B170D56DB00CB579E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E591D3C170D56DB00CB579E /* XebiaTest-Info.plist */,
+				4E591D3D170D56DB00CB579E /* InfoPlist.strings */,
+				4E591D40170D56DB00CB579E /* main.m */,
+				4E591D42170D56DB00CB579E /* XebiaTest-Prefix.pch */,
+				4E591D46170D56DB00CB579E /* Default.png */,
+				4E591D48170D56DB00CB579E /* Default@2x.png */,
+				4E591D4A170D56DB00CB579E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4E591D5E170D56DC00CB579E /* XebiaTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				4E591D64170D56DC00CB579E /* XebiaTestTests.h */,
+				4E591D65170D56DC00CB579E /* XebiaTestTests.m */,
+				4E591D5F170D56DC00CB579E /* Supporting Files */,
+			);
+			path = XebiaTestTests;
+			sourceTree = "<group>";
+		};
+		4E591D5F170D56DC00CB579E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E591D60170D56DC00CB579E /* XebiaTestTests-Info.plist */,
+				4E591D61170D56DC00CB579E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E591D2F170D56DB00CB579E /* XebiaTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E591D69170D56DC00CB579E /* Build configuration list for PBXNativeTarget "XebiaTest" */;
+			buildPhases = (
+				4E591D2C170D56DB00CB579E /* Sources */,
+				4E591D2D170D56DB00CB579E /* Frameworks */,
+				4E591D2E170D56DB00CB579E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XebiaTest;
+			productName = XebiaTest;
+			productReference = 4E591D30170D56DB00CB579E /* XebiaTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4E591D56170D56DC00CB579E /* XebiaTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E591D6C170D56DC00CB579E /* Build configuration list for PBXNativeTarget "XebiaTestTests" */;
+			buildPhases = (
+				4E591D52170D56DC00CB579E /* Sources */,
+				4E591D53170D56DC00CB579E /* Frameworks */,
+				4E591D54170D56DC00CB579E /* Resources */,
+				4E591D55170D56DC00CB579E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E591D5D170D56DC00CB579E /* PBXTargetDependency */,
+			);
+			name = XebiaTestTests;
+			productName = XebiaTestTests;
+			productReference = 4E591D57170D56DC00CB579E /* XebiaTestTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E591D27170D56DB00CB579E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Sandeep Kukreti";
+			};
+			buildConfigurationList = 4E591D2A170D56DB00CB579E /* Build configuration list for PBXProject "XebiaTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4E591D25170D56DB00CB579E;
+			productRefGroup = 4E591D31170D56DB00CB579E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E591D2F170D56DB00CB579E /* XebiaTest */,
+				4E591D56170D56DC00CB579E /* XebiaTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E591D2E170D56DB00CB579E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E591D3F170D56DB00CB579E /* InfoPlist.strings in Resources */,
+				4E591D47170D56DB00CB579E /* Default.png in Resources */,
+				4E591D49170D56DB00CB579E /* Default@2x.png in Resources */,
+				4E591D4B170D56DB00CB579E /* Default-568h@2x.png in Resources */,
+				4E591D51170D56DB00CB579E /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E591D54170D56DC00CB579E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E591D63170D56DC00CB579E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4E591D55170D56DC00CB579E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E591D2C170D56DB00CB579E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E591D41170D56DB00CB579E /* main.m in Sources */,
+				4E591D45170D56DB00CB579E /* AppDelegate.m in Sources */,
+				4E591D4E170D56DB00CB579E /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E591D52170D56DC00CB579E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E591D66170D56DC00CB579E /* XebiaTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4E591D5D170D56DC00CB579E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E591D2F170D56DB00CB579E /* XebiaTest */;
+			targetProxy = 4E591D5C170D56DC00CB579E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4E591D3D170D56DB00CB579E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E591D3E170D56DB00CB579E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4E591D4F170D56DB00CB579E /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E591D50170D56DB00CB579E /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		4E591D61170D56DC00CB579E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E591D62170D56DC00CB579E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E591D67170D56DC00CB579E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4E591D68170D56DC00CB579E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E591D6A170D56DC00CB579E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XebiaTest/XebiaTest-Prefix.pch";
+				INFOPLIST_FILE = "XebiaTest/XebiaTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4E591D6B170D56DC00CB579E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XebiaTest/XebiaTest-Prefix.pch";
+				INFOPLIST_FILE = "XebiaTest/XebiaTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4E591D6D170D56DC00CB579E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/XebiaTest.app/XebiaTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XebiaTest/XebiaTest-Prefix.pch";
+				INFOPLIST_FILE = "XebiaTestTests/XebiaTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		4E591D6E170D56DC00CB579E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/XebiaTest.app/XebiaTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XebiaTest/XebiaTest-Prefix.pch";
+				INFOPLIST_FILE = "XebiaTestTests/XebiaTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E591D2A170D56DB00CB579E /* Build configuration list for PBXProject "XebiaTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E591D67170D56DC00CB579E /* Debug */,
+				4E591D68170D56DC00CB579E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E591D69170D56DC00CB579E /* Build configuration list for PBXNativeTarget "XebiaTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E591D6A170D56DC00CB579E /* Debug */,
+				4E591D6B170D56DC00CB579E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4E591D6C170D56DC00CB579E /* Build configuration list for PBXNativeTarget "XebiaTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E591D6D170D56DC00CB579E /* Debug */,
+				4E591D6E170D56DC00CB579E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E591D27170D56DB00CB579E /* Project object */;
+}
